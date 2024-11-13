@@ -12,13 +12,6 @@ scenario = ScenarioFramework(scenario_folder_path='<ScenarioFolderPath>',
 scenario_path, inputs_path, outputs_path = scenario.pick_scenario()
 After initializing the ScenarioFramework object, call the pickscenario function, and assign the function's output to inputs_path and outputs_path variables. The console window will now prompt you to pick a scenario. 
 
-C:\Users\User\miniconda3\envs\Basic\python.exe "C:\Users\User\Documents\Tests\doing_a_thing.py" 
-Available scenarios:
-0: Scenario_A
-1: Scenario_B
-2: Scenario_C
-Select a scenario by number (0-2): 
-
 Choose the scenario you wish to run by entering its corresponding number and press enter. 
 You now have paths for both outputs and inputs which can be used throughout the rest of your model without worrying about overwriting data or saving results in the correct place. Both folders are contained within a parent folder representing a single execution of the model. Its name is a combination of the scenario folder's name, and timestamp of when the scenario was executed. This folder is contained within the Results folder. 
             
