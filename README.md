@@ -10,6 +10,7 @@ scenario = ScenarioFramework(scenario_folder_path='<ScenarioFolderPath>',
                              results_folder_path='<ResultsFolderPath>')
 
 scenario_path, inputs_path, outputs_path = scenario.pick_scenario()
+
 After initializing the ScenarioFramework object, call the pickscenario function, and assign the function's output to inputs_path and outputs_path variables. The console window will now prompt you to pick a scenario. 
 
 Choose the scenario you wish to run by entering its corresponding number and press enter. 
